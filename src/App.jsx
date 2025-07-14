@@ -47,7 +47,7 @@ function App() {
     setLoading(true);
     try {
       const res = await axios.post(
-        "https://resume-reviewer-woad.vercel.app/api/review",
+        "https://resume-review-server.onrender.com/api/review",
         formData
       );
       setAnalysis(marked(res.data.analysis));

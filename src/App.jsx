@@ -27,10 +27,10 @@ function App() {
     const newErrors = { file: "", jobDesc: "" };
     let hasError = false;
 
-    // if (!file) {
-    //   newErrors.file = 'Please upload a PDF resume.';
-    //   hasError = true;
-    // }
+    if (!file) {
+      newErrors.file = 'Please upload a PDF resume.';
+      hasError = true;
+    }
 
     if (!jobDesc.trim()) {
       newErrors.jobDesc = "Job description is required.";

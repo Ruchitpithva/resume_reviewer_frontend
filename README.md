@@ -1,12 +1,46 @@
-# React + Vite
+# 🧾 Resume Review AI – Frontend (Gemini Only)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for a **Resume Review AI** tool that allows users to upload their resume and a job description, and receive feedback based on how well the resume matches the job, using **Google's Gemini AI**.
 
-Currently, two official plugins are available:
+Built using **React.js (Vite)**, **Material-UI (MUI)**, and **Redux Toolkit**, this application provides a clean and user-friendly interface for evaluating job fit.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📄 Upload Resume & Job Description files (PDF)
+- 🤖 Uses Gemini AI to analyze and compare content
+- 📊 Displays match percentage, summary, and improvement suggestions
+- 🎯 Built-in session flow (one upload → one review)
+- 🧠 State management via Redux Toolkit
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- **React.js (Vite)**
+- **Material-UI (MUI)**
+- **Redux Toolkit + Redux Persist**
+- **Axios**
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/Ruchitpithva/resume_reviewer_frontend.git
+```
+
+## 2. Install Dependencies
+
+```bash
+npm Install
+```
+
+## 3. Run the App
+
+```bash
+npm run dev
+```
